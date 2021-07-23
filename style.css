@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#main{
+    position: relative;
+    width: 90%;
+    background-color: silver;
+    padding: 30px;
+}
+#title{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding-top: 16px;
+}
+#img-div{
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 20px;
+}
+#image{
+    position: relative;
+    width: 100%;
+}
+#img-caption{
+    font-size: 17px;
+    margin-top: 10px;
+}
+#tribute-phase{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+}
+#tribute-phase p, p{
+    font-size: 22px;
+    margin: 20px 0;
+}
+#tribute-phase > ul > li{
+    margin: 10px 0;
+}
